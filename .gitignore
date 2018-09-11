@@ -4,3 +4,5 @@
 /repository/logs
 /solr/data/tlog
 /solr
+/repository/data
+/repository/components/default/configuration
