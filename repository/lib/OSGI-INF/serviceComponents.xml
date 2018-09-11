@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" immediate="true" name="org.wso2.carbon.context.internal.CarbonContextDiscoveryServiceComponent">
+        <implementation class="org.wso2.carbon.context.internal.CarbonContextDiscoveryServiceComponent"/>
+        <property name="service.pid" value="org.wso2.carbon.context.internal.CarbonContextDiscoveryServiceComponent"/>
+        <reference name="discoveryService" interface="org.wso2.carbon.base.DiscoveryService" cardinality="0..1" policy="dynamic" bind="setDiscoveryService" unbind="unsetDiscoveryService"/>
+    </scr:component>
+    <scr:component enabled="true" immediate="true" name="org.wso2.carbon.context.internal.CarbonContextServiceComponent">
+        <implementation class="org.wso2.carbon.context.internal.CarbonContextServiceComponent"/>
+        <property name="service.pid" value="org.wso2.carbon.context.internal.CarbonContextServiceComponent"/>
+        <reference name="registry.service" interface="org.wso2.carbon.registry.api.RegistryService" cardinality="1..1" policy="dynamic" bind="setRegistryService" unbind="unsetRegistryService"/>
+        <reference name="userRealmService" interface="org.wso2.carbon.user.api.UserRealmService" cardinality="1..1" policy="dynamic" bind="setUserRealmService" unbind="unsetUserRealmService"/>
+    </scr:component>
+    <scr:component enabled="true" immediate="true" name="org.wso2.carbon.utils.internal.CarbonUtilsServiceComponent">
+        <implementation class="org.wso2.carbon.utils.internal.CarbonUtilsServiceComponent"/>
+        <property name="service.pid" value="org.wso2.carbon.utils.internal.CarbonUtilsServiceComponent"/>
+        <reference name="configuration.context.service" interface="org.wso2.carbon.utils.ConfigurationContextService" cardinality="1..1" policy="dynamic" bind="setConfigurationContextService" unbind="unsetConfigurationContextService"/>
+    </scr:component>
+</components>

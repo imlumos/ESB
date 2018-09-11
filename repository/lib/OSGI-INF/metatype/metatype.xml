@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.wso2.carbon.context.internal.CarbonContextDiscoveryServiceComponent" name="%org.wso2.carbon.context.internal.CarbonContextDiscoveryServiceComponent.name" description="%org.wso2.carbon.context.internal.CarbonContextDiscoveryServiceComponent.description"/>
+    <OCD id="org.wso2.carbon.context.internal.CarbonContextServiceComponent" name="%org.wso2.carbon.context.internal.CarbonContextServiceComponent.name" description="%org.wso2.carbon.context.internal.CarbonContextServiceComponent.description"/>
+    <OCD id="org.wso2.carbon.utils.internal.CarbonUtilsServiceComponent" name="%org.wso2.carbon.utils.internal.CarbonUtilsServiceComponent.name" description="%org.wso2.carbon.utils.internal.CarbonUtilsServiceComponent.description"/>
+    <Designate pid="org.wso2.carbon.context.internal.CarbonContextDiscoveryServiceComponent">
+        <Object ocdref="org.wso2.carbon.context.internal.CarbonContextDiscoveryServiceComponent"/>
+    </Designate>
+    <Designate pid="org.wso2.carbon.context.internal.CarbonContextServiceComponent">
+        <Object ocdref="org.wso2.carbon.context.internal.CarbonContextServiceComponent"/>
+    </Designate>
+    <Designate pid="org.wso2.carbon.utils.internal.CarbonUtilsServiceComponent">
+        <Object ocdref="org.wso2.carbon.utils.internal.CarbonUtilsServiceComponent"/>
+    </Designate>
+</metatype:MetaData>
