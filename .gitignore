@@ -1,0 +1,10 @@
+/lib/tomcat/work/Catalina/*
+/lib/tomcat/work
+/tmp
+/repository/logs
+/solr/data/tlog
+/solr
+/repository/data
+/repository/components/default/configuration/*.log
+/repository/components/default/configuration/**/*.instance
+

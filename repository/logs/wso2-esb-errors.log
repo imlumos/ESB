@@ -1,3 +1,0 @@
-2018-09-10 17:20:08,412 [-] [Start Level Event Dispatcher]  WARN ValidationResultPrinter The running OS : Windows 8.1 is not a tested Operating System for running WSO2 Carbon
-2018-09-10 17:20:08,413 [-] [Start Level Event Dispatcher]  WARN ValidationResultPrinter Carbon is configured to use the default keystore (wso2carbon.jks). To maximize security when deploying to a production environment, configure a new keystore with a unique password in the production server profile.
-2018-09-10 17:20:50,180 [-] [http-nio-9443-exec-11]  WARN CarbonAuthenticationUtil Failed Administrator login attempt 'admin[-1234]' at [2018-09-10 17:20:50,179+0800]
