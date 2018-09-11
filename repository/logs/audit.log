@@ -1,6 +1,0 @@
-[2018-09-11 09:24:06,345]  WARN -  Failed Administrator login attempt 'admin[-1234]' at [2018-09-11 09:24:06,344+0800] 
-[2018-09-11 09:24:17,397]  INFO -  'admin@carbon.super [-1234]' logged in at [2018-09-11 09:24:17,396+0800] 
-[2018-09-11 09:24:18,465]  WARN -  Failed Administrator login attempt 'admin[-1234]' at [2018-09-11 09:24:18,464+0800] 
-[2018-09-11 09:24:20,738]  INFO -  'admin@carbon.super [-1234]' logged in at [2018-09-11 09:24:20,737+0800] 
-[2018-09-11 09:24:21,827]  INFO -  'admin@carbon.super [-1234]' logged in at [2018-09-11 09:24:21,827+0800] 
-[2018-09-11 09:24:44,102]  INFO -  'admin@carbon.super [-1234]' logged in at [2018-09-11 09:24:44,101+0800] 

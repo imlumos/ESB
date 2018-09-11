@@ -1,0 +1,5 @@
+/lib/tomcat/work/Catalina/*
+/lib/tomcat/work
+/tmp
+/repository/logs
+/solr/data/tlog
