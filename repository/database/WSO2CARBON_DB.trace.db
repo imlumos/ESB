@@ -1,0 +1,3 @@
+09-11 10:10:54 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "UM_DIALECT" not found; SQL statement:
+SELECT COUNT(UM_ID) FROM UM_DIALECT WHERE UM_TENANT_ID=? [42102-140]
