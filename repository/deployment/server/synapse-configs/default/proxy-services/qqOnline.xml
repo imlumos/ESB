@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse"
+       name="qqOnline"
+       transports="http"
+       startOnLoad="true">
+   <description>qq在线服务</description>
+   <target>
+      <endpoint>
+         <address uri="http://www.webxml.com.cn/webservices/qqOnlineWebService.asmx?wsdl"
+                  format="soap11"/>
+      </endpoint>
+      <outSequence>
+         <send/>
+      </outSequence>
+   </target>
+   <publishWSDL uri="http://www.webxml.com.cn/webservices/qqOnlineWebService.asmx?wsdl"/>
+</proxy>
