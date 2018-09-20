@@ -2,7 +2,7 @@
 <proxy xmlns="http://ws.apache.org/ns/synapse"
        name="qqOnline"
        transports="http"
-       startOnLoad="true">
+       startOnLoad="false">
    <description>qq在线服务</description>
    <target>
       <endpoint>

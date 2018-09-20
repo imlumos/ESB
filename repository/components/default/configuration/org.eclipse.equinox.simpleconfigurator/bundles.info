@@ -18,6 +18,8 @@ axis2-transport-rabbitmq-amqp,1.1.1.wso2v6,../plugins/axis2-transport-rabbitmq-a
 axis2-transport-tcp,1.1.1.wso2v6,../plugins/axis2-transport-tcp_1.1.1.wso2v6.jar,4,true
 axis2-transport-udp,1.1.1.wso2v6,../plugins/axis2-transport-udp_1.1.1.wso2v6.jar,4,true
 axis2-transport-xmpp,1.1.1.wso2v6,../plugins/axis2-transport-xmpp_1.1.1.wso2v6.jar,4,true
+axis2_transport_mqtt_1.0.0,1.0.0,../dropins/axis2_transport_mqtt_1.0.0_1.0.0.jar,4,true
+axis2_transport_mqtt_1.1.1_wso2v6,1.0.0,../dropins/axis2_transport_mqtt_1.1.1_wso2v6_1.0.0.jar,4,true
 backport-util-concurrent,3.1.0.wso2v1,../plugins/backport-util-concurrent_3.1.0.wso2v1.jar,4,true
 bcprov-jdk15on,1.52.0.wso2v1,../plugins/bcprov-jdk15on_1.52.0.wso2v1.jar,4,true
 bsf-all,3.0.0.wso2v5,../plugins/bsf-all_3.0.0.wso2v5.jar,4,true
@@ -91,7 +93,9 @@ libthrift,0.7.0.wso2v2,../plugins/libthrift_0.7.0.wso2v2.jar,4,true
 libthrift,0.8.0.wso2v1,../plugins/libthrift_0.8.0.wso2v1.jar,4,true
 libthrift,0.9.2.wso2v1,../plugins/libthrift_0.9.2.wso2v1.jar,4,true
 lucene,5.2.1.wso2v1,../plugins/lucene_5.2.1.wso2v1.jar,4,true
+mqtt_client_0.4.0,1.0.0,../dropins/mqtt_client_0.4.0_1.0.0.jar,4,true
 mvel2,2.1.0.wso2v1,../plugins/mvel2_2.1.0.wso2v1.jar,4,true
+mysql_connector_java_5.1.27,1.0.0,../dropins/mysql_connector_java_5.1.27_1.0.0.jar,4,true
 neethi,2.0.4.wso2v5,../plugins/neethi_2.0.4.wso2v5.jar,4,true
 net.minidev.json-smart,1.2.0,../plugins/net.minidev.json-smart_1.2.0.jar,4,true
 noggit,0.6.0.wso2v1,../plugins/noggit_0.6.0.wso2v1.jar,4,true
